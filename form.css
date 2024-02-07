@@ -1,0 +1,40 @@
+body{
+    font-size:15px;
+    }
+div{
+    position: absolute;
+    left: 50px;
+    border: 1px solid black;
+    width: 450px;
+    box-sizing:border-box;background:rgb(229, 223, 223);
+    float: left;
+    align-content: center;
+    align-items: center; 
+    margin-left: 60vh;
+}
+form{
+    width: 400px;
+    background: #fff;
+    padding: 15px 8px 8px;
+    margin: 10px auto 0px;
+}
+input,select{align-self:right;
+    border: 1px solid black;
+    
+    display: block;
+}
+input[type="submit"]{
+    font-size: 70%;
+    background:rgb(93, 149, 201) ;
+    border-color: aquamarine;
+    color: white;
+    display: inline;
+}
+input[type="reset"]{
+    font-size:58%;
+    background:rgb(93, 149, 201) ;
+    border-color: aquamarine;
+    color: white;
+    display: inline;
+    margin-left: 100px;
+}
